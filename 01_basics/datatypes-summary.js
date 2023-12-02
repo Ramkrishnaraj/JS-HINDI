@@ -26,3 +26,26 @@ const MyFunction = function(){
     console.log("Hello World");
 }
 console.log(typeof MyFunction)
+
+
+
+
+// **********************Memory********************
+// 1.Satck(Use Premitive)  , 2.Heap(Use Non-premitive)
+let MyName="Ramkrishna"
+let anotherName = MyName
+anotherName = "Nirmala"
+console.log(MyName)
+console.log(anotherName)
+
+let user1={
+    email : "rkraj10300@gmail.com",
+    upi : "7296031836@ybl",
+}
+
+console.log(user1)
+
+let user2 = user1
+user2.email="rkoeyns@google.com"
+console.log(user1)
+console.log(user2)
