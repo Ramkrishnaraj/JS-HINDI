@@ -1,10 +1,8 @@
-
-
 const Symb = Symbol("Key1")
 
-
+// object laterls...
 const jsUser={
-    Name: "Ramkrishna",
+    Name: "Mr. Ramkrishna",
     "Full Name":"Ramkrishna Mahto",  
     Age: 23,
     [Symb]:"MyKey1",
@@ -33,8 +31,6 @@ jsUser.Email="sweety1203@mail.com"
 jsUser.gretting=function(){
     console.log("Hello Good Morning!")
 }
-
-console.log(jsUser.gretting)
 console.log(jsUser.gretting())
 
 
