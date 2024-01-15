@@ -1,3 +1,4 @@
+// Singleton Object
 // const tinderuser=new Object()
 const tinderuser= {}
 tinderuser.id=123
@@ -30,7 +31,7 @@ const obj6={...obj1, ...obj2}
 // console.log(obj4);
 // console.log(obj6);
 
-const user=[
+const user=[                 //Array of object comes from database..
     {
         id:1,
         email:"r@gmail.com"
