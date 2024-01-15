@@ -47,10 +47,19 @@ const user=[                 //Array of object comes from database..
 ]
 // console.log(user);
 // user[1].email
-console.log(tinderuser);
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
-console.log(tinderuser.hasOwnProperty('IsLoggedIn'));
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
+// console.log(tinderuser.hasOwnProperty('IsLoggedIn'));
 
+
+const course={                              //Destructuring of Objects
+    coursename:"JavaScript",
+    price:"999",
+    courseTeacher:"Ramkrishna"
+}
+// course.courseTeacher
+const{courseTeacher:Teacher}=course
+console.log(Teacher)
 
